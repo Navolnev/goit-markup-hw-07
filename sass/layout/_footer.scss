@@ -1,0 +1,95 @@
+footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  background-color: var(--footer--color);
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact-information-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--bright-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-information-mail,
+.contact-information-tel {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-title {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--bright-color);
+  text-transform: uppercase;
+}
+
+.telegram-icon {
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  margin-left: 11px;
+}
+
+.footer-form {
+  display: flex;
+}
+.contact-form-input {
+  display: flex;
+  min-width: 358px;
+  height: 50px;
+  padding: 15px;
+  background-color: transparent;
+  color: var(--bright-color);
+  border: 1px solid var(--footer-link);
+  border-radius: 4px;
+}
+
+.contact-form {
+  margin-left: 93px;
+}
+
+.telegram-btn {
+  min-width: 200px;
+  padding: 10px 30px;
+  margin-left: 12px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--bright-color);
+  background-color: var(--accent-color);
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--bright-color);
+    color: var(--accent-color);
+  }
+}
